@@ -1935,6 +1935,7 @@ arguments."
                  (find-file-noselect file-b)
                  rotate on-quit))
 
+;;;###autoload
 (defun vdiff-temp-files ()
   "Start a vidff session for two new temp files.
 
